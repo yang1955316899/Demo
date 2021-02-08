@@ -76,15 +76,37 @@ body {
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, .2));
     z-index: 1;
     overflow: hidden;
+    perspective: 500px;
 }
 
-.nav img {
+.Logo {
+    position: absolute;
+    height: 50px;
+    width: 80px;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+
+.Logo:hover {
+    transform: rotateY(180deg) ;
+}
+
+.Logo_1 img,
+.Logo_2 img {
     height: 40px;
     padding: 5px 20px;
-    float: left;
+    position: absolute;
     animation-name: turn;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+
+.Logo_2 {
+    transform: rotate3d(0,1,0,180deg);
+}
+
+.nav ul {
+    margin-left: 80px;
 }
 
 .nav ul li {
