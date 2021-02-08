@@ -88,7 +88,7 @@ body {
 }
 
 .Logo:hover {
-    transform: rotateY(180deg) ;
+    transform: rotateY(180deg);
 }
 
 .Logo_1 img,
@@ -102,7 +102,7 @@ body {
 }
 
 .Logo_2 {
-    transform: rotate3d(0,1,0,180deg);
+    transform: rotate3d(0, 1, 0, 180deg);
 }
 
 .nav ul {
@@ -135,6 +135,17 @@ body {
         move 10s forwards;
 }
 
+.music {
+    position: fixed;
+    left: -240px;
+    bottom: -60px;
+    transition: left 0.5s;
+}
+
+.music:hover {
+    left: -45px;
+}
+
 .bottom_layer {
     position: fixed;
     bottom: 0;
@@ -150,6 +161,7 @@ body {
     line-height: 20px;
     padding: 10px 20px;
 }
+
 
 .bottom_layer_right {
     float: right;
