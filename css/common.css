@@ -146,6 +146,12 @@ body {
     left: -45px;
 }
 
+/* 临时！ */
+.box>div {
+    margin: 10 auto;
+    background-color: blue;
+}
+
 .bottom_layer {
     position: fixed;
     bottom: 0;
