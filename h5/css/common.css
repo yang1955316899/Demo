@@ -37,6 +37,13 @@ body {
 .Logo:hover {
     transform: rotateX(180deg);
 }
+.Logo:hover .Logo_1 {
+    display: none;
+}
+
+.Logo:hover .Logo_2 {
+    display: block;
+}
 
 .Logo_1 img,
 .Logo_2 img {

@@ -91,6 +91,14 @@ body {
     transform: rotateY(180deg);
 }
 
+.Logo:hover .Logo_1 {
+    display: none;
+}
+
+.Logo:hover .Logo_2 {
+    display: block;
+}
+
 .Logo_1 img,
 .Logo_2 img {
     height: 40px;
@@ -103,6 +111,7 @@ body {
 
 .Logo_2 {
     transform: rotate3d(0, 1, 0, 180deg);
+    display: none;
 }
 
 .nav ul {
