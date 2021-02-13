@@ -1,0 +1,65 @@
+/* CSS属性初始化 */
+* {
+    padding: 0;
+    /* 清除内边距*/
+    margin: 0;
+    /*清除外边距*/
+}
+
+.w {
+    width: 600px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+/* 链接属性定义 */
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    font-weight: 600;
+}
+a:hover {
+    color: steelblue;
+    font-weight: 900;
+}
+/* 双伪元素清除浮动 */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+em,
+i {
+    font-style: normal
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif
+}
+
+.hide,
+.none {
+    display: none
+}
